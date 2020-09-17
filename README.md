@@ -1,2 +1,2 @@
 # React-Redux-ToDo-App
-Created with CodeSandbox
+Created by Haris Hamzić
