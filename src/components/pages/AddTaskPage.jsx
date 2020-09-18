@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
+import Form from './../Form';
 
 class AddTask extends Component {
   render(){
     return(
-      <h1>AddTask</h1>
+      <Form change={this.props.history.push} />
     );
   }
 }
