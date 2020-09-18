@@ -5,10 +5,10 @@ import './../styles/Navigation.css'
 class Navigation extends Component {
   render(){
     return(
-      <div>
+      <div className="navi">
         <h1>TODO APP</h1>
-        <NavLink to="/" activeClassName="active" className="non-active" exact={true}>Home</NavLink>
-        <NavLink to="/add" activeClassName="active" className="non-active">Add Task</NavLink>
+        <NavLink to="/" activeClassName="active" className="non-active" exact={true}>TASKS</NavLink>
+        <NavLink to="/add" activeClassName="active" className="non-active">ADD TASK</NavLink>
         <hr />
       </div>
     );

@@ -7,15 +7,16 @@ import store from './state/store/configureStore'
 import {Provider} from 'react-redux';
 import {addTask} from './state/actions/todos';
 
+import './styles/Index.css';
 
 
 const unsubscribe = store.subscribe(() => {
-  console.log(store.getState());
+  //console.log(store.getState());
 })
 
 
 store.dispatch(addTask({title: 'Kupiti voće', description:'Banane i jagode'}));
-store.dispatch(addTask({title: 'HARIS'}));
+store.dispatch(addTask({title: 'Spavanac', description: 'I have to sleep well!'}));
 
 
 const rootElement = document.getElementById("root");

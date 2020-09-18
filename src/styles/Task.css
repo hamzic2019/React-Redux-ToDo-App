@@ -1,0 +1,29 @@
+.task {
+  background-color: #2e8b57;
+  color:whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding:1px 25px 25px 25px;
+  width: 450px;
+  margin: 15px auto;
+  border-left:3px solid white;
+}
+
+.task button {
+  padding: 10px 35px;
+  font-size: 20px;
+  background-color: #fc440f;
+  color: white;
+  border-width: 0;
+  border-color: seagreen;
+  border-radius: 5px;
+  box-shadow: -1px 1px 1px rgba(255, 255, 255, 0.325);
+  box-shadow: -1px 1px 10px rgba(255, 255, 255, 0.525)0.525);
+  outline: none;
+}
+
+.task button:hover {
+  color:rgb(223, 223, 223);
+  box-shadow: -1px 1px 1px rgba(255, 255, 255, 0.325);
+  box-shadow: -1px 1px 10px rgba(255, 255, 255, 0.525)0.525);
+  
+}

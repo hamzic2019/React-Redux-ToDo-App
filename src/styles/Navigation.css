@@ -1,11 +1,25 @@
+* {
+  color:white
+}
+
 .active {
-  color:red!important;
+  color:white!important;
+  text-decoration: underline!important;
 }
 
 .non-active {
-  color: black;
-  margin: 5px;
+  color: white;
+  margin: 15px;
   text-decoration: none;
   font-size: 25px;
   font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.navi {
+  text-align: center;
+}
+
+hr {
+  border-width: 0.1px;
+  border-color: rgba(255, 255, 255, 0.1);  
 }

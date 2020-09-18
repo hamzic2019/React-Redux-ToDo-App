@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {connect} from 'react-redux';
 
 class AddTask extends Component {
   render(){
@@ -9,4 +10,4 @@ class AddTask extends Component {
 }
 
 
-export default AddTask;
+export default connect()(AddTask);
